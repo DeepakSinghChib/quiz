@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipes And cisterns Questions</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="pipepage">
+        <h1 style="text-transform:capitalize ;">pipes and cisterns</h1>
+        <div style="display: flex;justify-content: space-between;">
+            <p>Time</p>
+            <p>Score</p>
+        </div>
+
+
+        <div id="question">
+
+
+            <p id="quesbox"></p>
+
+            <div class="op">
+                <div style="margin-left:10px ;">
+                    <input type="radio" id="ans1" name="answer" class="answer" style="margin-left:1px;">
+                    <label id="option1"> </label>
+
+                    <input type="radio" id="ans2" name="answer" class="answer" style="margin-left: 250px;">
+                    <label id="option2"> </label>
+                </div>
+                <div style="margin-top:30px ;">
+                    <input type="radio" id="ans3" name="answer" class="answer" style="margin-left:2px;">
+                    <label id="option3"> </label>
+
+                    <input type="radio" id="ans4" name="answer" class="answer" style="margin-left: 250px;">
+                    <label id="option4"> </label>
+                </div>
+            </div>
+        </div>
+        <button type="button" onclick="nextQuestion()" id="next">Next Question</button>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
